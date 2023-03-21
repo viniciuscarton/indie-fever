@@ -1,0 +1,25 @@
+.NewsTags-blocks {
+  background-color: #d8d8d8;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 85px;
+  padding-bottom: 40px;
+}
+
+.NewsTags-blocks .col-md-2 {
+  height: 30px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  background-color: #f9f7fa;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.NewsTags-blocks .col-md-2:hover,
+.NewsTags-blocks .col-md-2:focus {
+  transform: scale(1.02);
+}

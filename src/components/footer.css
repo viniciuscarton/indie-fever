@@ -1,0 +1,28 @@
+.footer {
+    background-color: #f9f7fa;
+    position: relative;
+}
+
+.footer text {
+    font-family: "Merriweather";
+    font-weight: bold;
+}
+
+.footerbox {
+    background-color: #f9f7fa;
+}
+
+.footer p,
+span {
+    font-size: 12px;
+    font-family: "Merriweather";
+    font-weight: bold;
+}
+
+.footer h6 {
+    font-size: 14px;
+}
+
+.footer span {
+    font-weight: bold;
+}

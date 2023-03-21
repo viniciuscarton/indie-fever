@@ -1,0 +1,20 @@
+.App-body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 64px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d8d8d8;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 150px;
+}
+
+.content {
+  align-items: right;
+}
+
+.App-footer {
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+.Latest-blocks {
+    background-color: #d8d8d8;
+    width: 1000px;
+    margin-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Latest-blocks .col-md-2 {
+    position: relative;
+    margin: 4px;
+    width: 200px;
+    height: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.Latest-blocks .sr {
+    margin-top: 90px;
+}
+
+.Latest-blocks img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

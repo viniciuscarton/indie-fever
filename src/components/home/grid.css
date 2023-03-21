@@ -1,0 +1,81 @@
+.container {
+  margin-top: 40px;
+  width: auto;
+  position: relative;
+  background-color: #d8d8d8;
+  justify-content: center;
+}
+
+.title {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.Grid-blocks {
+  width: 1100px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 55px;
+}
+
+.Grid-blocks .col-md-5 {
+  height: 350px;
+  padding-right: 3px;
+}
+
+.Grid-blocks .col-md-2 {
+  margin: 2px;
+  height: 350px;
+  padding: 0px;
+  align-content: center;
+}
+
+.Grid-blocks img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.Grid-image-text {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #ffffff;
+  text-align: left;
+  background-color: rgba(3, 3, 3, 0.699);
+  padding: 10px;
+}
+
+.Grid-image-text h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(238, 255, 0);
+  font-family: "Merriweather";
+  font-weight: bold;
+  text-transform: initial;
+}
+
+.Grid-image-text p {
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: "Merriweather";
+  font-weight: lighter;
+  text-transform: initial;
+}
+
+.image-container:hover {
+  transform: scale(1.01);
+}
+
+.image-container:hover .Grid-image-text {
+  transform: scale(1.0);
+}
