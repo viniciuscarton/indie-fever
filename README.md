@@ -17,7 +17,7 @@ The posting page consists of a form with the following fields: title, subtitle, 
 Additionaly, users can submit an image to be stored as binary data in the database. However, please note that images will not be rendered on the news page (yet!).
 
 ## News
-![News](/readme/news.gif)
+![News](/readme/nws.gif)
 The news page features a menu bar for popular tags and a text section. Up to 5 posts are dynamically generated here from the database. The news page supports multipagination. 
 
 <!-- ## Used libraries/packages
