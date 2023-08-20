@@ -109,8 +109,8 @@ export default function Promo() {
                 </Col>
             </Row>
             <div className='latest-button'>
-                <button className='ver'> ver todos </button>
-                <button className='ver'> ver mais </button>
+                <button className='ver'> see all </button>
+                <button className='ver'> see more </button>
             </div>
         </div>
     );

@@ -110,8 +110,8 @@ export default function MostPopular() {
                 </Col>
             </Row>
             <div className='latest-button'>
-                <button className='ver'> Ver todos </button>
-                <button className='ver'> Ver mais </button>
+                <button className='ver'> see all </button>
+                <button className='ver'> see more </button>
             </div>
         </div>
     );
