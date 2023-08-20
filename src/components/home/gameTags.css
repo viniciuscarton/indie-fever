@@ -1,0 +1,33 @@
+.Tags-blocks {
+  background-color: #d8d8d8;
+  align-content: center;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.Tags-blocks .col-md-2 {
+  height: 30px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.Tags-blocks .col-md-2:hover,
+.Tags-blocks .col-md-2:focus {
+  transform: scale(1.02);
+}
+
+.Tags-blocks .col-md-2 p {
+  font-family: "Merriweather";
+  font-weight: bold;
+  color: #292525;
+  font-size: 14px;
+  margin: 0;
+}

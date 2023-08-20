@@ -1,0 +1,99 @@
+.navbar {
+    width: 100%;
+    background-color: #f9f7fa;
+    height: 64px;
+    position: fixed;
+    z-index: 2;
+    border-bottom: 3px solid black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar img {
+    height: 100px;
+    margin: 20px;
+}
+
+.navbar li {
+    padding-bottom: 78px;
+}
+
+.navbar li a,
+.NavLink {
+    color: #312f2f;
+    font-family: "Merriweather";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: lowercase
+}
+
+.navList li a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    margin-right: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-right: 6px;
+    border-radius: 6px;
+    height: 35px;
+    width: 350px;
+    border: 0px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+form button[type="submit"] {
+    padding: 6px;
+    background-color: #292525;
+    width: 35px;
+    height: 35px;
+    color: #f9f7fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform .3s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+
+button:hover {
+    transform: translateX(2px);
+}
+
+button:active {
+    transform: scale(1.5);
+}
+
+.spin {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

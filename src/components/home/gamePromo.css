@@ -1,0 +1,125 @@
+.title {
+    text-align: left;
+    padding-left: 100px;
+    font-family: "Merriweather";
+    font-weight: bold;
+}
+
+.Promo-blocks {
+    background-color: #d8d8d8;
+    width: 1000px;
+    margin-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Promo-blocks .col-md-2 {
+    position: relative;
+    margin: 4px;
+    width: 200px;
+    height: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.Promo-blocks .sr {
+    margin-top: 90px;
+}
+
+.Promo-blocks img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0;
+    color: #292525;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.image-text h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Merriweather";
+    font-weight: bold;
+    text-transform: initial;
+}
+
+.image-text p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #292525;
+    font-family: "Merriweather";
+    font-weight: lighter;
+    text-transform: initial;
+}
+
+.image-container .price {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0 10px;
+    margin: 10px;
+    z-index: 1;
+    margin-right: 100px;
+    background-color: rgb(8, 255, 119);
+    border: 1px solid white;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.image-container .platform {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0 10px;
+    margin: 10px;
+    z-index: 1;
+    margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.image-container:hover {
+    transform: scale(1.01);
+}
+
+.image-container:hover .image-text {
+    transform: scale(1.0);
+}
+
+.latest-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ver {
+    align-self: flex-end;
+    margin-top: 200px;
+    float: right;
+    background-color: #ffffff;
+    border: 0;
+    text-transform: lowercase;
+    border: 0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: "Merriweather";
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    margin-left: 30px;
+}
